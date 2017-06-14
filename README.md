@@ -18,6 +18,12 @@ Add the plugin to your `book.json`:
 }
 ```
 
+and run install command
+
+```bash
+$ gitbook install
+```
+
 ### Optional configuration
 
 You can add the following [configuration params](https://github.com/kangax/html-minifier#options-quick-reference) to your `book.json`:
