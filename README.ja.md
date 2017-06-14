@@ -1,16 +1,16 @@
 # GitBook HTML minify Plugin
 
-This is a HTML minifier for GitBook plugin.
+HTMLをminifyするGitBook Pluginです。
 
-Run HTML minify after build.
+[html-minifier](https://github.com/kangax/html-minifier)をそのままGitbbok Plugin化しています。
 
-It is powered by the [html-minifier](https://github.com/kangax/html-minifier).
+インストールするだけでビルドされるHTMLがminifyされるようになります。
 
-## Usage
+# 使い方
 
-### Installation
+## インストール
 
-Add the plugin to your `book.json`:
+`book.json`に`html-minifier`を追加して`$ gitbook install`を実行します。
 
 ```json
 {
@@ -18,15 +18,15 @@ Add the plugin to your `book.json`:
 }
 ```
 
-and run install command
-
 ```bash
 $ gitbook install
 ```
 
-### Optional configuration
+## 設定
 
-You can add the following [configuration params](https://github.com/kangax/html-minifier#options-quick-reference) to your `book.json`:
+[html-minifier](https://github.com/kangax/html-minifier)で用意されている設定をそのまま使用できます。
+
+[Options Quick Reference](https://github.com/kangax/html-minifier#options-quick-reference)を参考に`book.json`を調整すると思い通りのminifyが可能です。
 
 ```json
 {
@@ -70,6 +70,6 @@ You can add the following [configuration params](https://github.com/kangax/html-
 }
 ```
 
-## License
+# License
 
 MIT License
