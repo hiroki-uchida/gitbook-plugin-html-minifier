@@ -187,5 +187,6 @@
   },
   "dependencies": {
     "html-minifier": "^3.5.2"
-  }
+  },
+  "license": "MIT"
 }
