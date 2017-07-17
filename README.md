@@ -1,8 +1,8 @@
 # GitBook HTML minify Plugin
 
-This is a HTML minifier for GitBook plugin.
+This is an HTML minifier for GitBook plugin.
 
-Run HTML minify after build.
+Run HTML minify after the build.
 
 It is powered by the [html-minifier](https://github.com/kangax/html-minifier).
 

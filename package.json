@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-html-minifier",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a HTML minifier for GitBook plugin. Run HTML minify after build.",
   "main": "index.js",
   "engines": {
@@ -187,5 +187,6 @@
   },
   "dependencies": {
     "html-minifier": "^3.5.2"
-  }
+  },
+  "license": "MIT"
 }
