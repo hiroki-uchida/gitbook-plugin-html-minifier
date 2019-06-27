@@ -35,7 +35,7 @@ var dirFilesHtmlMinify = function (dirPath, book) {
 
 module.exports = {
   hooks: {
-    "finish": function () {
+    "finish:before": function () {
       dirFilesHtmlMinify(
         this.output.root(),
         this
